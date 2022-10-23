@@ -1,14 +1,12 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.cssg'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar';
 
 const App = () => {
  
     return (
        <>
-       <div className='m-5 p-5'>
-        <div className='text-center w-50 primary'>one</div>
-        <div>Two</div>
-       </div>
+       <Navbar/>
       </>
     );
 }
